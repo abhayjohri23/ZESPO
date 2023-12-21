@@ -14,7 +14,7 @@
         </div>
         <div id="searchBar" style="position: relative;">
             <span class="material-symbols-outlined" style="color: white; position: absolute; top: 5px;left: 5px;">search</span>
-            <input type="text" placeholder="Search for contacts or messages" autofocus>
+            <input type="text" placeholder="Search for contacts or messages">
         </div>
     </div>
     <div id="contentPane">
@@ -57,7 +57,24 @@
         </div>
         <div id="messagingPane">
             <div id="chattingHeader">
-                
+                <div id="chattingTo">
+                    <span class="material-symbols-outlined" style="color: rgba(255, 255, 0, 0.808); font-size: 12px;">schedule</span>
+                    <p id="currName">Alexandra Thomas</p>
+                </div>
+                <div id="callingFeature">
+                    <button class="callBtns"><span class="material-symbols-outlined">call</span></button>
+                    <button class="callBtns"><span class="material-symbols-outlined">video_call</span></button>
+                </div>
+            </div>
+            <div id="chatSection">
+            </div>
+            <div id="sendBox">
+                <textarea name="messageInput" id="" cols="1" rows="3" placeholder="Type your message here..." style="background-color: inherit;color: white;" autofocus></textarea>
+                <div id="fileOptns">
+                    <button class="generalBtn"><span class="material-symbols-outlined" style="font-size: 16px;">attach_file_add</span></button>
+                    <button class="generalBtn"><span class="material-symbols-outlined" style="font-size: 16px;">add_reaction</span></button>
+                    <button class="generalBtn"><span class="material-symbols-outlined " style="font-size: 16px;">prompt_suggestion</span></button>
+                </div>
             </div>
         </div>
     </div>
