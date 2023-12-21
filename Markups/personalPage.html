@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zespo: Bridge Conversations, Empower Collaboration | Personal Page</title>
+    <link rel="stylesheet" href="../Stylesheets/personal.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,1,0" />
+</head>
+<body>
+    <div id="menuPane">
+        <div id="logo" style="border-bottom: 1px solid gray;">
+            <img src="../images/zespo logo.png" alt="logo" style="width: 2em;height: 2em; border-radius: 50%;">
+            <h3 style="color: white;">ZESPO</h3>
+        </div>
+        <div id="commIcon" class="sideBarIcons" style="border-bottom: 1px solid gray;">
+            <a href="#"><span class="material-symbols-outlined">call</span></a>
+            <a href="#"><span class="material-symbols-outlined">forum</span></a>
+            <a href="#"><span class="material-symbols-outlined">videocam</span></a>
+        </div>
+        <div id="profIcon" class="sideBarIcons" style="justify-content: flex-start;">
+            <a href="#"><span class="material-symbols-outlined">person</span></a>
+            <a href="#"><span class="material-symbols-outlined">person_add</span></a>
+        </div>
+        <div class="sideBarIcons" style="justify-content: center;">
+            <a href="#"><span class="material-symbols-outlined">tune</span></a>
+        </div>
+    </div>
+    <div id="contentPane">
+        <div id="appToolBar">
+            <a href="./introPage.html"><span class="material-symbols-outlined">home</span></a>
+            <a href="#"><span class="material-symbols-outlined">account_circle</span></a>
+        </div>
+        <div id="profileBar">
+            <div id="myAccount">
+                <img id="myProfilePicture" src="../images/Profile Pics/profPic.jpg" alt="avatar">
+                <h3>My Account</h3>
+            </div>
+        </div>
+        <div id="screenName">
+            <div id="highlights">
+                <h3 style="margin: 0.75em 2em;">Highlights</h3>
+            </div>
+            <div id="newConvos">
+                <button class="viewBtn"><span class="material-symbols-outlined">view_list</span></button>
+                <button class="viewBtn"><span class="material-symbols-outlined">grid_view</span></button>
+                <button id="newChat" class="newIcons">New Chat</button>
+                <button id="newCall" class="newIcons">New Call</button>
+            </div>
+        </div>
+        <div id="videoPosts">
+            <ul id="conferenceHistory">
+            </ul>
+        </div>
+        <div id="chatPosts">
+            <ul id="chatHistory">
+            </ul>
+        </div>
+    </div>
+    <script src="../Scripts/personal.js"></script>
+</body>
+</html>

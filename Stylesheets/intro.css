@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Roboto:wght@100&display=swap');
+body {
+    margin: 0%;
+    background-color: #161616;
+    color: white;
+    font-family: 'Bitter', serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mainContainer{
+    background-color: inherit;
+    border-radius:2em;
+    overflow: hidden;
+    height: 80%;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#getStarted{
+    background-color: rgb(50,50,50);
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 4em;
+}
+#getStarted p{
+    margin-top: 0.25em; 
+    font-size: 12px;
+    color: whitesmoke;
+    text-wrap: balance;
+}
+
+.signIn{
+    padding: 0.75em 5em;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #764A98;
+    margin-top: 0.75em;
+    cursor: pointer;
+}
+.signUp {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin-top: 0.75em;
+
+}
+.signUp:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+    color: rgb(219, 214, 214);
+}
+.inputFields{
+    font-size: 13px;
+    width: 18em;
+    height: 2.5em;
+    margin-top: 0.75em;
+    padding-left: 0.5em;
+}
+.inputFields:focus{
+    outline: none;
+}
+#sideIcon{
+    height: 100%;
+    width: 50%;
+    border-radius: 0.75em;
+}
+#logo{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: rgb(118, 74, 152);
+}
